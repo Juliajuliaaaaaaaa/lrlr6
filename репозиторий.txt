@@ -18,7 +18,7 @@ int main()
 	cout << setw(10) << left << "х=" << setw(4) << "у=\n";
 	while (x <= maxX + (h / 2))
 	{
-		y = pow(x, 5) + pow(x, 1. / 2) - 3;
+		y = pow(x, 9)+pow(x,1./2)-4;
 		cout << setw(10) << left << x  << setw(4) << y << endl ;
 		x += h;
 	}
