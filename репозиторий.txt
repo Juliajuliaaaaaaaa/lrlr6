@@ -19,7 +19,7 @@ int main()
 	while (x <= maxX + (h / 2))
 	{
 		y = pow(x, 9)+pow(x,1./2)-4;
-		cout << setw(10) << left << x  << setw(4) << y << endl ;
+		cout << setw(10) << left << x  << setw(9) << y << endl ;//ent
 		x += h;
 	}
 system("pause");
