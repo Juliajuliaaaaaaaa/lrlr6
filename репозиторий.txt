@@ -15,7 +15,7 @@ int main()
 	cout << "Введіть крок за х: ";
 	cin >> h;
 	x = minX;
-	cout << setw(10) << left << "х=" << setw(4) << "у=\n";
+	cout << setw(10) << left << "х=" << setw(4) << "у=\n";//text
 	while (x <= maxX + (h / 2))
 	{
 		y = pow(x, 9)+pow(x,1./2)-4;
